@@ -2,8 +2,8 @@ name: Alpha Monitor (24h)
 
 on:
   schedule:
-    # 每天 00:00, 06:00, 12:00, 18:00 UTC 运行 (每6小时一次)
-    - cron: '0 0,6,12,18 * * *'
+    # 每 15 分钟运行一次 (最小间隔)
+    - cron: '*/15 * * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
