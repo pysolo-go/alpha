@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.DS_Store
+trader_history.json
+trade_history.csv
+.vscode/
+test_email.py
+send_brief.py
